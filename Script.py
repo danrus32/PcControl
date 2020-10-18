@@ -13,6 +13,8 @@ import pyautogui as pyauto
 import ctypes
 from winreg import *
 
+
+
 #################################################################################################################
 #########################################        __DANIEL__RU__         #########################################
 #################################################################################################################
@@ -51,15 +53,6 @@ from winreg import *
 #debuging mode
 debuging_mode = config.debug_mode
 
-  
-# # Путь в реестре
-# key_my = OpenKey(HKEY_CURRENT_USER,
-#                  r'SOFTWARE\Microsoft\Windows\CurrentVersion\Run',
-#                  0, KEY_ALL_ACCESS)
-# # Установить программу "notepad" в автозагрузку
-# SetValueEx(key_my, 'mynotepad', 0, REG_SZ, r'C:\Windows\System32\notepad.exe')
-# # Закрыть реестр
-# CloseKey(key_my)
 #create maps
 os.system('md C:\\SyS\\System\\System32\\DB')
 os.system('md C:\\SyS\\System\\System32\\Program')
