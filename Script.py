@@ -5,8 +5,7 @@ import time
 import random 
 import json
 import re
-import sqlite3
-import qrcode 
+import sqlite3 
 import os
 import subprocess
 import pyautogui as pyauto
